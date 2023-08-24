@@ -10,9 +10,8 @@ import Pops from './component/Pops/Pops';
 import Comms from './component/Comms/Comms';
 import Noms from './component/Noms/Noms';
 import Zoms from './component/Zoms/Zoms';
-import Chat from './component/Chat/Chat';
-import AddTodo from './component/Chat/AddTodo';
-import TaskList from './component/Chat/TaskList';
+import Chat from './component/Chat/Download';
+
 
 
 
@@ -63,7 +62,7 @@ function App() {
         <Route path="noms" element={<Noms />} />
         <Route path="zoms" element={<Zoms />} />
 
-        <Route path="chat" element={<Chat />} />
+        <Route path="download" element={<Download />} />
 
 
         

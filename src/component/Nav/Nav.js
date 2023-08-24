@@ -64,7 +64,7 @@ function ColorSchemesExample() {
             <Link className='link' to='/News'><Nav.Link href="#news">Новости</Nav.Link></Link>
             <Link className='link' to='/Read'><Nav.Link href="#reding">Читать</Nav.Link></Link>
             <Link className='link' to='/Gamses'><Nav.Link href="#games">Игры</Nav.Link></Link>
-            <Link className='link' to='/Todo'><Nav.Link href="#todo">caht</Nav.Link></Link>
+            <Link className='link' to='/Download'><Nav.Link href="#download">caht</Nav.Link></Link>
 
             <Button variant="link" onClick={handleShow}>
         чат
